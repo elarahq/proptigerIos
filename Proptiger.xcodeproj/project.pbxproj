@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FCDC966283FFBE70043BD2D /* ProptigerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDC965283FFBE70043BD2D /* ProptigerApp.swift */; };
+		7FCDC968283FFBE70043BD2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDC967283FFBE70043BD2D /* ContentView.swift */; };
+		7FCDC96A283FFBE80043BD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCDC969283FFBE80043BD2D /* Assets.xcassets */; };
+		7FCDC96D283FFBE80043BD2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCDC96C283FFBE80043BD2D /* Preview Assets.xcassets */; };
+		7FCDC977283FFBE80043BD2D /* ProptigerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDC976283FFBE80043BD2D /* ProptigerTests.swift */; };
+		7FCDC981283FFBE80043BD2D /* ProptigerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDC980283FFBE80043BD2D /* ProptigerUITests.swift */; };
+		7FCDC983283FFBE80043BD2D /* ProptigerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDC982283FFBE80043BD2D /* ProptigerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FCDC973283FFBE80043BD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCDC95A283FFBE70043BD2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FCDC961283FFBE70043BD2D;
+			remoteInfo = Proptiger;
+		};
+		7FCDC97D283FFBE80043BD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCDC95A283FFBE70043BD2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FCDC961283FFBE70043BD2D;
+			remoteInfo = Proptiger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FCDC962283FFBE70043BD2D /* Proptiger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proptiger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCDC965283FFBE70043BD2D /* ProptigerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProptigerApp.swift; sourceTree = "<group>"; };
+		7FCDC967283FFBE70043BD2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FCDC969283FFBE80043BD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FCDC96C283FFBE80043BD2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FCDC972283FFBE80043BD2D /* ProptigerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProptigerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCDC976283FFBE80043BD2D /* ProptigerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProptigerTests.swift; sourceTree = "<group>"; };
+		7FCDC97C283FFBE80043BD2D /* ProptigerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProptigerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCDC980283FFBE80043BD2D /* ProptigerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProptigerUITests.swift; sourceTree = "<group>"; };
+		7FCDC982283FFBE80043BD2D /* ProptigerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProptigerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FCDC95F283FFBE70043BD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCDC96F283FFBE80043BD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCDC979283FFBE80043BD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FCDC959283FFBE70043BD2D = {
+			isa = PBXGroup;
+			children = (
+				7FCDC964283FFBE70043BD2D /* Proptiger */,
+				7FCDC975283FFBE80043BD2D /* ProptigerTests */,
+				7FCDC97F283FFBE80043BD2D /* ProptigerUITests */,
+				7FCDC963283FFBE70043BD2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FCDC963283FFBE70043BD2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FCDC962283FFBE70043BD2D /* Proptiger.app */,
+				7FCDC972283FFBE80043BD2D /* ProptigerTests.xctest */,
+				7FCDC97C283FFBE80043BD2D /* ProptigerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FCDC964283FFBE70043BD2D /* Proptiger */ = {
+			isa = PBXGroup;
+			children = (
+				7FCDC965283FFBE70043BD2D /* ProptigerApp.swift */,
+				7FCDC967283FFBE70043BD2D /* ContentView.swift */,
+				7FCDC969283FFBE80043BD2D /* Assets.xcassets */,
+				7FCDC96B283FFBE80043BD2D /* Preview Content */,
+			);
+			path = Proptiger;
+			sourceTree = "<group>";
+		};
+		7FCDC96B283FFBE80043BD2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FCDC96C283FFBE80043BD2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FCDC975283FFBE80043BD2D /* ProptigerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FCDC976283FFBE80043BD2D /* ProptigerTests.swift */,
+			);
+			path = ProptigerTests;
+			sourceTree = "<group>";
+		};
+		7FCDC97F283FFBE80043BD2D /* ProptigerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FCDC980283FFBE80043BD2D /* ProptigerUITests.swift */,
+				7FCDC982283FFBE80043BD2D /* ProptigerUITestsLaunchTests.swift */,
+			);
+			path = ProptigerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FCDC961283FFBE70043BD2D /* Proptiger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCDC986283FFBE80043BD2D /* Build configuration list for PBXNativeTarget "Proptiger" */;
+			buildPhases = (
+				7FCDC95E283FFBE70043BD2D /* Sources */,
+				7FCDC95F283FFBE70043BD2D /* Frameworks */,
+				7FCDC960283FFBE70043BD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Proptiger;
+			productName = Proptiger;
+			productReference = 7FCDC962283FFBE70043BD2D /* Proptiger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FCDC971283FFBE80043BD2D /* ProptigerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCDC989283FFBE80043BD2D /* Build configuration list for PBXNativeTarget "ProptigerTests" */;
+			buildPhases = (
+				7FCDC96E283FFBE80043BD2D /* Sources */,
+				7FCDC96F283FFBE80043BD2D /* Frameworks */,
+				7FCDC970283FFBE80043BD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCDC974283FFBE80043BD2D /* PBXTargetDependency */,
+			);
+			name = ProptigerTests;
+			productName = ProptigerTests;
+			productReference = 7FCDC972283FFBE80043BD2D /* ProptigerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FCDC97B283FFBE80043BD2D /* ProptigerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCDC98C283FFBE80043BD2D /* Build configuration list for PBXNativeTarget "ProptigerUITests" */;
+			buildPhases = (
+				7FCDC978283FFBE80043BD2D /* Sources */,
+				7FCDC979283FFBE80043BD2D /* Frameworks */,
+				7FCDC97A283FFBE80043BD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCDC97E283FFBE80043BD2D /* PBXTargetDependency */,
+			);
+			name = ProptigerUITests;
+			productName = ProptigerUITests;
+			productReference = 7FCDC97C283FFBE80043BD2D /* ProptigerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FCDC95A283FFBE70043BD2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7FCDC961283FFBE70043BD2D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7FCDC971283FFBE80043BD2D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7FCDC961283FFBE70043BD2D;
+					};
+					7FCDC97B283FFBE80043BD2D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7FCDC961283FFBE70043BD2D;
+					};
+				};
+			};
+			buildConfigurationList = 7FCDC95D283FFBE70043BD2D /* Build configuration list for PBXProject "Proptiger" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FCDC959283FFBE70043BD2D;
+			productRefGroup = 7FCDC963283FFBE70043BD2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FCDC961283FFBE70043BD2D /* Proptiger */,
+				7FCDC971283FFBE80043BD2D /* ProptigerTests */,
+				7FCDC97B283FFBE80043BD2D /* ProptigerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FCDC960283FFBE70043BD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCDC96D283FFBE80043BD2D /* Preview Assets.xcassets in Resources */,
+				7FCDC96A283FFBE80043BD2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCDC970283FFBE80043BD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCDC97A283FFBE80043BD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FCDC95E283FFBE70043BD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCDC968283FFBE70043BD2D /* ContentView.swift in Sources */,
+				7FCDC966283FFBE70043BD2D /* ProptigerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCDC96E283FFBE80043BD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCDC977283FFBE80043BD2D /* ProptigerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCDC978283FFBE80043BD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCDC981283FFBE80043BD2D /* ProptigerUITests.swift in Sources */,
+				7FCDC983283FFBE80043BD2D /* ProptigerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FCDC974283FFBE80043BD2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FCDC961283FFBE70043BD2D /* Proptiger */;
+			targetProxy = 7FCDC973283FFBE80043BD2D /* PBXContainerItemProxy */;
+		};
+		7FCDC97E283FFBE80043BD2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FCDC961283FFBE70043BD2D /* Proptiger */;
+			targetProxy = 7FCDC97D283FFBE80043BD2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FCDC984283FFBE80043BD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FCDC985283FFBE80043BD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FCDC987283FFBE80043BD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Proptiger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = housing.Proptiger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FCDC988283FFBE80043BD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Proptiger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = housing.Proptiger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FCDC98A283FFBE80043BD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = housing.ProptigerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proptiger.app/Proptiger";
+			};
+			name = Debug;
+		};
+		7FCDC98B283FFBE80043BD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = housing.ProptigerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proptiger.app/Proptiger";
+			};
+			name = Release;
+		};
+		7FCDC98D283FFBE80043BD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = housing.ProptigerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Proptiger;
+			};
+			name = Debug;
+		};
+		7FCDC98E283FFBE80043BD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = housing.ProptigerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Proptiger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FCDC95D283FFBE70043BD2D /* Build configuration list for PBXProject "Proptiger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCDC984283FFBE80043BD2D /* Debug */,
+				7FCDC985283FFBE80043BD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCDC986283FFBE80043BD2D /* Build configuration list for PBXNativeTarget "Proptiger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCDC987283FFBE80043BD2D /* Debug */,
+				7FCDC988283FFBE80043BD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCDC989283FFBE80043BD2D /* Build configuration list for PBXNativeTarget "ProptigerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCDC98A283FFBE80043BD2D /* Debug */,
+				7FCDC98B283FFBE80043BD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCDC98C283FFBE80043BD2D /* Build configuration list for PBXNativeTarget "ProptigerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCDC98D283FFBE80043BD2D /* Debug */,
+				7FCDC98E283FFBE80043BD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FCDC95A283FFBE70043BD2D /* Project object */;
+}
