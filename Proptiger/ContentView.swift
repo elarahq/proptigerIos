@@ -2,16 +2,22 @@
 //  ContentView.swift
 //  Proptiger
 //
-//  Created by Kshitij Gulati on 26/05/22.
+//  Created by Kshitij Gulati on 18/05/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        NavigationView {
+            ZStack {
+                Onboarding()
+                ModalAnchorView()
+            }
+            .environmentObject(ModalManager())
+            .navigationBarHidden(true)
+        }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {
